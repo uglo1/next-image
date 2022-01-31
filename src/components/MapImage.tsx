@@ -1,5 +1,4 @@
 import Image from "next/image";
-import classes from "src/components/MapImage.module.css";
 
 export const MapImage = (props: any) => {
   return (

@@ -7,10 +7,8 @@
 }
 
 .side {
-  width: 2000px;
+  width: 1200px;
   position: relative;
-  max-width: 100%;
-  height: auto;
 }
 
 .pin1 {
