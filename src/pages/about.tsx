@@ -6,7 +6,6 @@ import { Box, Container, Grid } from "@mui/material";
 import { DashboardLayout } from "src/components/Layouts/DashBoardLayout";
 import { style } from "@mui/system";
 import Image from "next/image";
-import PinDropIcon from "@material-ui/icons/PinDrop";
 
 const Dashboard: NextPage = () => {
   const options = {
@@ -30,25 +29,14 @@ const Dashboard: NextPage = () => {
   return (
     <>
       <h1>Hello World</h1>
+      <h2>aaaa</h2>
       <div className={styles.wrapper}>
         <div className={styles.side}>
           <MapImage />
-          <div className={styles.pin1}>
-            <PinDropIcon htmlColor="red" />
-          </div>
-          <div className={styles.pin2}>
-            <PinDropIcon htmlColor="blue" fontSize="large" />
-          </div>
-          <div className={styles.pin3}>
-            <PinDropIcon htmlColor="yellow" />
-          </div>
-          <div className={styles.pin4}>
-            <PinDropIcon htmlColor="green" />
-          </div>
-          <div className={styles.pin5}>
-            <PinDropIcon htmlColor="orange" />
-          </div>
+
+          <div className={styles.pin}>重ねたい文字</div>
         </div>
+        <div className={styles.main}>aa</div>
       </div>
     </>
   );
