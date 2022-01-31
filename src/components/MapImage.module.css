@@ -1,5 +1,4 @@
-.map {/*親div*/
-  background-image: url('../../public/map.png');
-  background-attachment: fixed;
-  background-size: 100%;
+.map {
+  width: 1200px;
+  position: relative;
 }

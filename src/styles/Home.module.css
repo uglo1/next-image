@@ -6,40 +6,6 @@
   display: flex;
 }
 
-.side {
-  width: 1200px;
-  position: relative;
-}
-
-.pin1 {
-  position: absolute;
-  left: 47.3%;
-  bottom: 60%;
-}
-
-.pin2 {
-  position: absolute;
-  left: 40.7%;
-  bottom: 50%;
-}
-
-.pin3 {
-  position: absolute;
-  left: 53.5%;
-  bottom: 25%;
-}
-.pin5 {
-  position: absolute;
-  left: 56%;
-  bottom: 51%;
-}
-
-.pin4 {
-  position: absolute;
-  left: 45%;
-  bottom: 32.5%;
-}
-
 .main {
   flex: 1;
 }
